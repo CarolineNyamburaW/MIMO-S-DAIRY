@@ -14,3 +14,9 @@ var shadeD = function (){
   console.log("Your production in Shade D 572 litres per day")
 }
 shadeD();
+
+
+var totalProduction = function (){
+  console.log("Your total poduction is 1876 litres per day");
+}
+totalProduction();
