@@ -22,6 +22,8 @@ var totalProduction = function (){
 totalProduction();
 
 
+
+
 var weeklyIncome = incomeOverTime(84420, 7); 
 
 function incomeOverTime(a, b) {
@@ -31,13 +33,17 @@ function incomeOverTime(a, b) {
 console.log ("Your weekly income is " + weeklyIncome );
 
 
-var yearlyIncome = incomeOverTime(84420, 365); 
+
+
+var yearlyIncome = incomeOverTime(84420, 364); 
 
 function incomeOverTime(a, b) {
   return a * b;   
 } ; 
 
 console.log ("Your yearly income is " + yearlyIncome );
+
+
 
 var leapYearIncome ={
   January : 30*45*1876,
@@ -55,3 +61,13 @@ var leapYearIncome ={
 };
 
 console.log (leapYearIncome );
+
+
+
+var changeInPriceYearlyIncome = incomeOverTime(91924, 364); 
+
+function incomeOverTime(a, b) {
+  return a * b;   
+} ; 
+
+console.log ("Your yearly income is " + changeInPriceYearlyIncome );
