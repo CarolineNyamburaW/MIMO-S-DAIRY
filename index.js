@@ -71,3 +71,22 @@ function incomeOverTime(a, b) {
 } ; 
 
 console.log ("Your yearly income is " + changeInPriceYearlyIncome );
+
+
+
+var changeInPriceIncomeLeapYear={
+  January : 30*49*1876,
+  February : 29*49*1876,
+  March : 31*49*1876,
+  April : 30*49*1876,
+  May : 31*49*1876,
+  June : 30*49*1876,
+  July : 31*49*1876,
+  August : 31*49*1876,
+  September : 30*49*1876,
+  October : 31*49*1876,
+  November : 30*49*1876,
+  December :31*49*1876,
+};
+
+console.log (changeInPriceIncomeLeapYear);
