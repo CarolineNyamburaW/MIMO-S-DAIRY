@@ -33,3 +33,25 @@ p{
   font-weight: bold;
   font-size: 16px;
 }
+.entries{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields{
+  width: 100%;
+}
+
+.input-fields .input{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  width: 100%;
+}
