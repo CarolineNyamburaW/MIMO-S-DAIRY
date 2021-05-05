@@ -9,3 +9,16 @@ body{
   background-size: cover;
   
 }
+.main {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #0c0b0c;
+  background-image: linear-gradient(to top, #141214 0%, #8c7f8f 100%);
+  font-size: 12px;
+}
