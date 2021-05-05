@@ -29,3 +29,12 @@ function incomeOverTime(a, b) {
 } ; 
 
 console.log ("Your weekly income is " + weeklyIncome );
+
+
+var yearlyIncome = incomeOverTime(84420, 365); 
+
+function incomeOverTime(a, b) {
+  return a * b;   
+} ; 
+
+console.log ("Your yearly income is " + yearlyIncome );
