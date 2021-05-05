@@ -20,3 +20,12 @@ var totalProduction = function (){
   console.log("Your total poduction is 1876 litres per day");
 }
 totalProduction();
+
+
+var weeklyIncome = incomeOverTime(84420, 7); 
+
+function incomeOverTime(a, b) {
+  return a * b;   
+} ; 
+
+console.log ("Your weekly income is " + weeklyIncome );
