@@ -22,3 +22,9 @@ body{
   background-image: linear-gradient(to top, #141214 0%, #8c7f8f 100%);
   font-size: 12px;
 }
+.main .heading h1{
+  color:  #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
